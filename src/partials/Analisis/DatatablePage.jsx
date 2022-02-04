@@ -504,7 +504,7 @@ const DatatablePage = () => {
   };
 
   return (
-    <div className="w-full p-10 mt-10">
+    <div className="p-10 bg-white rounded-xl shadow-lg">
       <MDBDataTable striped bordered small data={data} />
     </div>
   );

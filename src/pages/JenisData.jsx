@@ -20,7 +20,7 @@ import DashboardCard11 from "../partials/dashboard/DashboardCard11";
 import DashboardCard12 from "../partials/dashboard/DashboardCard12";
 import DashboardCard13 from "../partials/dashboard/DashboardCard13";
 import Banner from "../partials/Banner";
-import DatatablePage from "../partials/Analisis/DatatablePage";
+import TbJenisData from "../partials/JenisData/TbJenisData";
 
 const Analisis = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -36,7 +36,7 @@ const Analisis = () => {
             {/* Welcome banner */}
             <WelcomeBanner welcomeAnalisis="Analisis Data" />
             <div className="w-full">
-              <DatatablePage />
+              <TbJenisData />
             </div>
           </div>
         </main>
